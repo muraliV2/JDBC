@@ -1,13 +1,5 @@
 package com.JDBC;
 
-/*write a jdbc program to delete a records into table?
-key points to solve above requirements
-i. query: Other than select type(DELETE)
-ii. type of query: static type
-iii. create statement: Statement interface
-iv. factory method to create statement: createStatement() method
-v. helper method to execute query: executeUpdate(String query) method
-* */
 
 import java.sql.Connection;
 import java.sql.DriverManager;
