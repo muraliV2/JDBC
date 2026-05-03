@@ -43,8 +43,6 @@ try
 	stmt.addBatch(query1);
 	stmt.addBatch(query2);
 	stmt.addBatch(query3);
-
-	
 	int [] count = stmt.executeBatch();
 	for(int i : count)
 	{
