@@ -7,7 +7,6 @@
 //Method helps to achieve Batch Processing
 //1.addBatch()
 //2.ExecuteBatch()
-
 //EXAMPLE :
 	//Write JDBC Program to perform insert,update & fetch data from table by using Batch processing?
 package connection;
