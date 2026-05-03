@@ -52,7 +52,7 @@ try
 	while(rs.next())
 	{
 		int id = rs.getInt(1);
-		String name = rs.getString(2);
+	String name = rs.getString(2);
 		String capital = rs.getString(3);
 		String population = rs.getString(4);
 		String currency =  rs.getString(5);
