@@ -56,7 +56,7 @@ try
 		String capital = rs.getString(3);
 		String population = rs.getString(4);
 		String currency =  rs.getString(5);
-		System.out.println(id+" "+name+" "+capital+" "+population+" "+ currency );
+		System.out.println(id+" "+name+""+capital+" "+population+" "+ currency );
 	}
 }
 catch(ClassNotFoundException | SQLException e)
