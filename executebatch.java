@@ -12,7 +12,6 @@
 	//Write JDBC Program to perform insert,update & fetch data from table by using Batch processing?
 
 
-
 package connection;
 
 import java.sql.Connection;
