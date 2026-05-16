@@ -13,7 +13,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-
 public class Insert {
     public static void main(String[] args) {
         try {
@@ -26,7 +25,7 @@ public class Insert {
             if(con != null){
                 System.out.println("connection established");
             }else{
-                System.out.println("try again");
+                System.out.println("tryagain");
             }
             String query = "Insert into country values(2,'America','Washington DC','120 cr', 'USD' )"; //issue the query
             Statement stmt = con.createStatement(); //create statement
