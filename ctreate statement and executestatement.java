@@ -3,8 +3,7 @@ package com.JDBC;
 
 /*write a jdbc program to delete a records into table?
 key points to solve above requirements
-i. query: Other than select type(DELETE)
-.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
