@@ -18,7 +18,7 @@ try
 	Connection con = DriverManager.getConnection(dburl);
 	if(con != null)
 	{
-		System.out.println("connection successfull");
+		System.out.println("connection search successfull");
 	}
 	else
 	{
