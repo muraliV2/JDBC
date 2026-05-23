@@ -47,7 +47,7 @@ try
 	int [] count = stmt.executeBatch();
 	for(int i : count)
 	{
-		System.out.println(i + " ");
+	System.out.println(i + " ");
 	}
 	ResultSet rs = stmt.executeQuery(query4);
 	while(rs.next())
