@@ -25,7 +25,7 @@ public class Insert {
             if(inserted>0){
                 System.out.println("Inserted successfully");
             }else{
-                System.out.println("check the query");
+                System.out.println("check the above  query");
             }
             con.close();
             stmt.close();
