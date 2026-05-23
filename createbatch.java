@@ -1,13 +1,4 @@
-//Batch processing in JDBC
-//Batch : Group,Processing : execution : verification
-//def : Batch programming is an technique in jdbc , helps to excute multiple queries at a point of time
-// NOTE  : 
-   //1 : BAtch processsing only allows "OTHER THAN SELECT TYPE OF QUERIES " (STATIC,DYNAMIC)
-    //2: BAtch Processing helps in CRUD Operation except,Select Queries
-//Method helps to achieve Batch Processing
-//1.addBatch()
-//2.ExecuteBatch()
-//EXAMPLE :
+
 	//Write JDBC Program to perform insert,update & fetch data from table by using Batch processing?
 package connection;
 import java.sql.Connection;
