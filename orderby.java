@@ -26,7 +26,6 @@ Statement st = 	con.createStatement();
 ResultSet rs = st.executeQuery(query);
 while(rs.next())
 {
-	
 String name = rs.getString(1);
 System.out.println(name);
 }
