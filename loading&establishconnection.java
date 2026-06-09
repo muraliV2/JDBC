@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Loading_Drivers {
-
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
