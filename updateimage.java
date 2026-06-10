@@ -39,7 +39,6 @@ else
 {
 	System.out.println("check the query");}
 
-
 	}
 	catch(ClassNotFoundException | SQLException | FileNotFoundException e)
 	{
