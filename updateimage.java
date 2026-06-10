@@ -26,7 +26,6 @@ else
 {
 	System.out.println("connection unsuccessfull");
 	}
-
 String query = "UPDATE  FLOWERS SET IMAGE = ? WHERE ID=4";
 PreparedStatement psmt = con.prepareStatement(query);
 FileInputStream fis1 = new FileInputStream("C:\\Users\\mural\\OneDrive\\Desktop\\New folder\\sample-15s.wav");
