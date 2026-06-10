@@ -18,7 +18,7 @@ public class Update {
             if(affected >0){
                 System.out.println("Updated successfully");
             }else {
-                System.out.println("check the query");
+                System.out.println("please check the query");
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
