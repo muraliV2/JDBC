@@ -16,7 +16,7 @@ public class Update {
             Statement stmt = con.createStatement();
             int affected = stmt.executeUpdate(query);
             if(affected >0){
-                System.out.println("Updated successfully");
+                System.out.println("the query is Updated successfully");
             }else {
                 System.out.println("please check the query");
             }
