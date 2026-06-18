@@ -15,7 +15,7 @@ String dburl = ("jdbc:mysql://localhost:3306/dmart?user=root&password=Murali@649
 Connection con = DriverManager.getConnection(dburl);
 if(con != null)
 {
-System.out.println("connection successfull");	
+System.out.println("connection is successfull");	
 }
 else
 {
