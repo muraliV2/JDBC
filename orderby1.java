@@ -10,7 +10,6 @@ public class sortdata
 public static void main(String [] args)
 {
 	try{
-
 Class.forName("com.mysql.cj.jdbc.Driver");
 String dburl = ("jdbc:mysql://localhost:3306/dmart?user=root&password=Murali@6492");
 Connection con = DriverManager.getConnection(dburl);
