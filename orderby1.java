@@ -21,7 +21,6 @@ else
 {
 System.out.println("connection is unsuccessfull");	
 }
-
 String query = "SELECT NAME FROM STORE ORDER BY PRICE";
 PreparedStatement psp  = con.prepareStatement(query);
 ResultSet rs = psp.executeQuery(query);
