@@ -19,7 +19,7 @@ System.out.println("connection is successfull");
 }
 else
 {
-System.out.println("connection unsuccessfull");	
+System.out.println("connection is unsuccessfull");	
 }
 
 String query = "SELECT NAME FROM STORE ORDER BY PRICE";
