@@ -26,7 +26,6 @@ PreparedStatement psp  = con.prepareStatement(query);
 ResultSet rs = psp.executeQuery(query);
 while(rs.next())
 {
-	
 String name = rs.getString(1);
 
 System.out.println(name);
