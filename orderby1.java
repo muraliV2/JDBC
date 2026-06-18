@@ -32,7 +32,6 @@ String name = rs.getString(1);
 
 System.out.println(name);
 }
-
 }
 	catch(ClassNotFoundException | SQLException e)
 	{
