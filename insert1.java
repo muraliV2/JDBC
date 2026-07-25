@@ -20,7 +20,7 @@ public static void main(String [] args)
 		Connection con = DriverManager.getConnection(dburl);
 		if(con!=null)
 		{
-			System.out.println("connection created");
+		System.out.println("connection created");
 		}
 		else
 		{
