@@ -24,7 +24,7 @@ public static void main(String [] args)
 		}
 		else
 		{
-			System.out.println("connection not successfull");
+		System.out.println("connection not successfull");
 		}
 		
 		String query = "SELECT * FROM STORE WHERE ID = ?";
