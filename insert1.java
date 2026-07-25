@@ -51,7 +51,6 @@ public static void main(String [] args)
 		psmt.close();
 		rs.close();
 		scn.close();
-		
 	}
 	catch(SQLException | ClassNotFoundException e)
 	{
