@@ -26,7 +26,6 @@ public static void main(String [] args)
 		{
 		System.out.println("connection not successfull");
 		}
-		
 		String query = "SELECT * FROM STORE WHERE ID = ?";
 		PreparedStatement psmt = con.prepareStatement(query);
 		psmt.setInt(1, id);
